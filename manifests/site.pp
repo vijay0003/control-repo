@@ -1,3 +1,4 @@
+mod 'puppet-cron', '2.0.0',
 $minute = fqdn_rand(9)
 node default {
   file { '/root/README':
